@@ -3,8 +3,10 @@ spring.cloud.vault:
   host: localhost
   port: 8200
   scheme: http
-  authentication: token
-  token: e12638c4-6609-c68a-d083-89900fde6aca
+  authentication: approle
+  app-role:
+    role-id: 8b1f347b-f274-6f47-ef6a-16b249d38f50
+    secret-id: ef7b32d0-8be4-a2ee-df28-44e27360ee3d
 
 
 #spring.cloud.bootstrap.enabled: false
