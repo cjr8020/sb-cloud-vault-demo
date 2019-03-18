@@ -1,0 +1,12 @@
+spring.application.name: sb-cloud-vault-demo-app
+spring.cloud.vault:
+  host: localhost
+  port: 8200
+  scheme: http
+  authentication: token
+  token: e12638c4-6609-c68a-d083-89900fde6aca
+
+
+#spring.cloud.bootstrap.enabled: false
+#spring.cloud.consul.enabled: false
+#spring.cloud.vault.enabled: false
